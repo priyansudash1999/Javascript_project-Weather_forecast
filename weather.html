@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="./weather.css">
+</head>
+<body>
+    <div>
+        <div>
+            <div>
+                <h1 class="heading">Get Weather Report at your Location</h1>
+                <h3 class="city">Type Your City Name</h3>
+                <input type="text" placeholder="Ex:- Mumbai" class="input">
+                <button class="submit">Check Weather</button>
+                <div id="details" class="hidden">
+                    <h5 id="city_name"></h5>
+                    <p id="temp"></p>
+                    <p id="desc"></p>
+                </div>
+                <p class="hidden" id="error-msg">City not found.Kindly check(either spelling or city may be incorrect)</p>
+            </div>
+        </div>
+    </div>
+    <script src="./weather.js"></script>
+</body>
+</html>
